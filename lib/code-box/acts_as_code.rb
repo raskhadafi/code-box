@@ -165,8 +165,6 @@ module CodeBox
             CODE
 
           when :poro
-            order_attr = position_attr ? position_attr.to_s : code_attr.to_s
-
             class_eval <<-CODE
               attr_accessor :#{code_attr}
 
