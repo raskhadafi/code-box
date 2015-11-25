@@ -203,7 +203,7 @@ module CodeBox
         model_type  = self.ancestors.include?('ActiveRecord::Base'.constantize) ? :active_record : :poro
 
         module_name  = code_attr.pluralize.camelize
-        codes_module = const_set(module_name, Module.new) 
+        codes_module = const_set(module_name, Module.new)
 
         # Create a constant for each code
         constants = {}
