@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 require 'code-box/code_attribute'
 require 'code-box/acts_as_code'
 
